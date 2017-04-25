@@ -1,10 +1,10 @@
 {
   "name": "node-restaurants-app-knex",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node drills.js"
   },
   "author": "Chris Klanac <cklanac@gmail.com>",
   "license": "MIT",
@@ -13,6 +13,18 @@
     "pg": "^6.1.2"
   },
   "devDependencies": {
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
     "nodemon": "^1.11.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BAAMOSK/node-restaurants-app-knex.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/BAAMOSK/node-restaurants-app-knex/issues"
+  },
+  "homepage": "https://github.com/BAAMOSK/node-restaurants-app-knex#readme",
+  "description": ""
 }
