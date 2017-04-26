@@ -4,7 +4,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node drills.js"
+    "start": "node drills.js",
+    "nodemon": "nodemon drills.js"
   },
   "author": "Chris Klanac <cklanac@gmail.com>",
   "license": "MIT",
@@ -15,7 +16,8 @@
   "devDependencies": {
     "express": "^4.15.2",
     "morgan": "^1.8.1",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "treeize": "^2.0.2"
   },
   "repository": {
     "type": "git",
